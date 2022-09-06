@@ -1,0 +1,28 @@
+# To use:
+#
+#   $ conda env create -f environment.yml
+#   $ conda activate best-photo-spider
+#
+name: best-photo-spider
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - libgfortran==5.0.0.dev0  # pin version to avoid numpy ImportError
+  # web scrapping
+  - numpy
+  - beautifulsoup4
+  - selenium
+  - webdriver_manager
+  # editor
+  - jupyter
+  - jupyterlab
+  - jupyterlab-spellchecker
+  - jupyterlab_code_formatter
+  - jupyterlab_widgets
+  - ipywidgets
+  - pip:
+    # jupyter lab code formatter
+    - black
+    - isort

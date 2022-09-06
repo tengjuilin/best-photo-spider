@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# jupyter notebooks
+.ipynb_checkpoints
+
+# output
+output
