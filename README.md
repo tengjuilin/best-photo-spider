@@ -1,6 +1,6 @@
 # Photo Spider for Best Educational Organization
 
-This project intend to scrape photos from the [website of Best Educational Organization](https://www.bestsch.cn/best/public/news)'s news articles, especially those from Best International Primary School and Kinglee High School.
+This project aims to scrape photos from news articles in [Best Educational Organization's website](https://www.bestsch.cn/best/public/news), especially those from Best International Primary School and Kinglee High School.
 
 ## Installation
 
