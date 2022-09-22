@@ -12,7 +12,6 @@ dependencies:
   - libgfortran==5.0.0.dev0  # pin version to avoid numpy ImportError
   # web scrapping
   - numpy
-  - beautifulsoup4
   - selenium
   - webdriver_manager
   # editor
